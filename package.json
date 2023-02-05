@@ -1,0 +1,20 @@
+{
+  "name": "firebase_web_notifications",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "VITE_CONFIG=main vite build && VITE_CONFIG=sw vite build",
+    "build:sw": "VITE_CONFIG=sw vite build",
+    "build:site": "VITE_CONFIG=main vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0",
+    "vite-plugin-static-copy": "^0.13.0"
+  },
+  "dependencies": {
+    "firebase": "^9.17.1"
+  }
+}
