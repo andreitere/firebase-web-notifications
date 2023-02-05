@@ -39,7 +39,6 @@ const onSubscribe = async (_) => {
 };
 
 $subscribe.addEventListener("click", onSubscribe);
-$updateWorker.addEventListener("click", (_) => NotifService.updateWorker());
 $clear.addEventListener("click", (_) => {
   notifications = [];
   renderNotifications();
